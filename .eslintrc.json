@@ -30,15 +30,18 @@
       "argsIgnorePattern": "^_"
     }
   ],
-    // "@typescript-eslint/naming-convention": [
-    //   "error",
-    //   {
-    //     "selector": "interface",
-    //     "prefix": ["I"],
-    //     "format": ["PascalCase"]
-    //   }
-    // ],
+
     "class-methods-use-this":"off",
+
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        "selector": "interface",
+        "prefix": ["I"],
+        "format": ["PascalCase"]
+      }
+    ],
+
     "import/extensions": [
       "error",
       "ignorePackages",
